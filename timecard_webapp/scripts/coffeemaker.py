@@ -20,7 +20,7 @@ CoffeeBinPath = r'E:\dev\node\node_modules\npm\coffee.cmd'
 # coffeeファイルの拡張子
 CoffeeFileExt= '.coffee'
 # *.coffeeファイルを検索するディレクトリパス
-SearchCoffeeFileDirPath = r'E:\MySourcecode\git\timecard_webapp\app_root\js'
+SearchCoffeeFileDirPath = r'E:\MySourcecode\git\KoneKoneTrash\timecard_webapp\app_root\js'
 # ファイルが編集されてからビルドされるまでの遅延時間
 DelaySecond = 10
 
@@ -67,7 +67,6 @@ class ChangeBuildingHandler(FileSystemEventHandler):
             except OSError as e:
                 warnings.warn(e.message)
 
-
     def on_deleted(self, event):
         pass
 
@@ -76,7 +75,6 @@ class ChangeBuildingHandler(FileSystemEventHandler):
 
     def on_moved(self, event):
         pass
-
 
 if __name__ in '__main__':
     while True:
