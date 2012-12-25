@@ -38,8 +38,8 @@ bench_msgpack_unpack = (json) ->
 
 window.onload = () ->
   console.log('== json2.jsとmsgpackのpackベンチ(10) ==')
-  json_encoded_10000 = bench_json_pack(solid10)
-  msgpack_encoded_10000 = bench_msgpack_pack(solid10)
+  json_encoded_10 = bench_json_pack(solid10)
+  msgpack_encoded_10 = bench_msgpack_pack(solid10)
   console.log('')
 
   console.log('== json2.jsとmsgpackのpackベンチ(10000) ==')
@@ -50,6 +50,11 @@ window.onload = () ->
   console.log('== json2.jsとmsgpackのpackベンチ(100000) ==')
   json_encoded_100000 = bench_json_pack(solid100000)
   msgpack_encoded_100000 = bench_msgpack_pack(solid100000)
+  console.log('')
+
+  console.log('== json2.jsとmsgpackのunpackベンチ(10) ==')
+  bench_json_unpack(json_encoded_10)
+  bench_msgpack_unpack(msgpack_encoded_10)
   console.log('')
 
   console.log('== json2.jsとmsgpackのunpackベンチ(10000) ==')

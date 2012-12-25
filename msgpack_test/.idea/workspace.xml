@@ -80,7 +80,7 @@
       <file leaf-file-name="bench.coffee" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/bench.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="0" selection-start="1422" selection-end="1422" vertical-scroll-proportion="0.33534744">
+            <state line="66" column="46" selection-start="2064" selection-end="2064" vertical-scroll-proportion="1.0">
               <folding />
             </state>
           </provider>
@@ -651,7 +651,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/bench.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="0" selection-start="1422" selection-end="1422" vertical-scroll-proportion="0.33534744">
+        <state line="66" column="46" selection-start="2064" selection-end="2064" vertical-scroll-proportion="1.0">
           <folding />
         </state>
       </provider>
